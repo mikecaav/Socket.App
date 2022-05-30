@@ -1,0 +1,15 @@
+/Users/mikecaav/RiderProjects/Socket.App/Socket.App.Synchronus.Client/bin/Debug/net5.0/Socket.App.Synchronus.Client.deps.json
+/Users/mikecaav/RiderProjects/Socket.App/Socket.App.Synchronus.Client/bin/Debug/net5.0/Socket.App.Synchronus.Client.runtimeconfig.json
+/Users/mikecaav/RiderProjects/Socket.App/Socket.App.Synchronus.Client/bin/Debug/net5.0/Socket.App.Synchronus.Client.runtimeconfig.dev.json
+/Users/mikecaav/RiderProjects/Socket.App/Socket.App.Synchronus.Client/bin/Debug/net5.0/Socket.App.Synchronus.Client.dll
+/Users/mikecaav/RiderProjects/Socket.App/Socket.App.Synchronus.Client/bin/Debug/net5.0/ref/Socket.App.Synchronus.Client.dll
+/Users/mikecaav/RiderProjects/Socket.App/Socket.App.Synchronus.Client/bin/Debug/net5.0/Socket.App.Synchronus.Client.pdb
+/Users/mikecaav/RiderProjects/Socket.App/Socket.App.Synchronus.Client/obj/Debug/net5.0/Socket.App.Synchronus.Client.csproj.AssemblyReference.cache
+/Users/mikecaav/RiderProjects/Socket.App/Socket.App.Synchronus.Client/obj/Debug/net5.0/Socket.App.Synchronus.Client.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mikecaav/RiderProjects/Socket.App/Socket.App.Synchronus.Client/obj/Debug/net5.0/Socket.App.Synchronus.Client.AssemblyInfoInputs.cache
+/Users/mikecaav/RiderProjects/Socket.App/Socket.App.Synchronus.Client/obj/Debug/net5.0/Socket.App.Synchronus.Client.AssemblyInfo.cs
+/Users/mikecaav/RiderProjects/Socket.App/Socket.App.Synchronus.Client/obj/Debug/net5.0/Socket.App.Synchronus.Client.csproj.CoreCompileInputs.cache
+/Users/mikecaav/RiderProjects/Socket.App/Socket.App.Synchronus.Client/obj/Debug/net5.0/Socket.App.Synchronus.Client.dll
+/Users/mikecaav/RiderProjects/Socket.App/Socket.App.Synchronus.Client/obj/Debug/net5.0/ref/Socket.App.Synchronus.Client.dll
+/Users/mikecaav/RiderProjects/Socket.App/Socket.App.Synchronus.Client/obj/Debug/net5.0/Socket.App.Synchronus.Client.pdb
+/Users/mikecaav/RiderProjects/Socket.App/Socket.App.Synchronus.Client/obj/Debug/net5.0/Socket.App.Synchronus.Client.genruntimeconfig.cache

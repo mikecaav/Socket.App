@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "Socket.App.Synchronus.Client/1.0.0": {
+        "runtime": {
+          "Socket.App.Synchronus.Client.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Socket.App.Synchronus.Client/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

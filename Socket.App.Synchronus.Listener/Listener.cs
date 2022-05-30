@@ -2,6 +2,7 @@ using System;
 using System.Net;
 using System.Net.Sockets;
 using System.Text;
+using System.Threading;
 
 namespace Socket.App
 {
@@ -35,7 +36,7 @@ namespace Socket.App
                     data = null;  
       
                     // An incoming connection needs to be processed.  
-                    while (true) {
+                    while (handler.Connected) {
                         data = String.Empty;
                         int bytesRec = handler.Receive(bytes);  
                         data += Encoding.ASCII.GetString(bytes,0,bytesRec);  
@@ -43,21 +44,16 @@ namespace Socket.App
                         // Show the data on the console.  
                         Console.WriteLine( "Text received : {0}", data);
 
-                        if (data == "close")
-                        {
-                            break;
-                        }
-
                         // Echo the data back to the client.  
-                        byte[] msg = Encoding.ASCII.GetBytes(data);  
-                        
-                        handler.Send(msg);
-                    }
+                        byte[] msg = Encoding.ASCII.GetBytes(data);
 
-                    handler.Shutdown(SocketShutdown.Both);  
-                    handler.Close();
-                }  
-      
+                        handler.Send(msg);
+
+                        handler.Shutdown(SocketShutdown.Both);
+                        handler.Close();
+                    }
+                }
+
             } catch (Exception e) {  
                 Console.WriteLine(e.ToString());  
             }  

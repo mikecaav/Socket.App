@@ -13,10 +13,7 @@ namespace Socket.App
       
             // Connect to a remote device.  
             try {  
-                // Establish the remote endpoint for the socket.  
-                // This example uses port 11000 on the local computer.  
-                IPHostEntry ipHostInfo = Dns.GetHostEntry(Dns.GetHostName());  
-                IPAddress ipAddress = ipHostInfo.AddressList[0];  
+                IPAddress ipAddress = IPAddress.Any;  
                 IPEndPoint remoteEP = new IPEndPoint(ipAddress,11000);  
       
                 // Create a TCP/IP  socket.  
@@ -24,26 +21,26 @@ namespace Socket.App
                     SocketType.Stream, ProtocolType.Tcp );  
       
                 // Connect the socket to the remote endpoint. Catch any errors.  
-                try {  
+                try { 
                     sender.Connect(remoteEP);  
-      
+  
                     Console.WriteLine("Socket connected to {0}",  
                         sender.RemoteEndPoint.ToString());  
-      
+  
                     // Encode the data string into a byte array.  
-                    byte[] msg = Encoding.ASCII.GetBytes("This is a test<EOF>");  
-      
+                    byte[] msg = Encoding.ASCII.GetBytes("This is a different message");  
+  
                     // Send the data through the socket.  
                     int bytesSent = sender.Send(msg);  
-      
+  
                     // Receive the response from the remote device.  
                     int bytesRec = sender.Receive(bytes);  
                     Console.WriteLine("Echoed test = {0}",  
                         Encoding.ASCII.GetString(bytes,0,bytesRec));  
-      
+  
                     // Release the socket.  
                     sender.Shutdown(SocketShutdown.Both);  
-                    sender.Close();  
+                    sender.Close();
       
                 } catch (ArgumentNullException ane) {  
                     Console.WriteLine("ArgumentNullException : {0}",ane.ToString());  
