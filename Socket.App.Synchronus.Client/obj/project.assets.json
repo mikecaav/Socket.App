@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/mikecaav/RiderProjects/Socket.App/Socket.App/Socket.App.csproj",
-      "projectName": "Socket.App",
-      "projectPath": "/Users/mikecaav/RiderProjects/Socket.App/Socket.App/Socket.App.csproj",
+      "projectUniqueName": "/Users/mikecaav/RiderProjects/Socket.App/Socket.App.Synchronus.Client/Socket.App.Synchronus.Client.csproj",
+      "projectName": "Socket.App.Synchronus.Client",
+      "projectPath": "/Users/mikecaav/RiderProjects/Socket.App/Socket.App.Synchronus.Client/Socket.App.Synchronus.Client.csproj",
       "packagesPath": "/Users/mikecaav/.nuget/packages/",
-      "outputPath": "/Users/mikecaav/RiderProjects/Socket.App/Socket.App/obj/",
+      "outputPath": "/Users/mikecaav/RiderProjects/Socket.App/Socket.App.Synchronus.Client/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/mikecaav/.nuget/NuGet/NuGet.Config"

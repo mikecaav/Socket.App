@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Socket.App
+namespace Client
 {
     class Program
     {

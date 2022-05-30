@@ -1,0 +1,15 @@
+/Users/mikecaav/RiderProjects/Socket.App/Socket.App.Synchronus.Listener/bin/Debug/net5.0/Socket.App.Synchronus.Listener.deps.json
+/Users/mikecaav/RiderProjects/Socket.App/Socket.App.Synchronus.Listener/bin/Debug/net5.0/Socket.App.Synchronus.Listener.runtimeconfig.json
+/Users/mikecaav/RiderProjects/Socket.App/Socket.App.Synchronus.Listener/bin/Debug/net5.0/Socket.App.Synchronus.Listener.runtimeconfig.dev.json
+/Users/mikecaav/RiderProjects/Socket.App/Socket.App.Synchronus.Listener/bin/Debug/net5.0/Socket.App.Synchronus.Listener.dll
+/Users/mikecaav/RiderProjects/Socket.App/Socket.App.Synchronus.Listener/bin/Debug/net5.0/ref/Socket.App.Synchronus.Listener.dll
+/Users/mikecaav/RiderProjects/Socket.App/Socket.App.Synchronus.Listener/bin/Debug/net5.0/Socket.App.Synchronus.Listener.pdb
+/Users/mikecaav/RiderProjects/Socket.App/Socket.App.Synchronus.Listener/obj/Debug/net5.0/Socket.App.Synchronus.Listener.csproj.AssemblyReference.cache
+/Users/mikecaav/RiderProjects/Socket.App/Socket.App.Synchronus.Listener/obj/Debug/net5.0/Socket.App.Synchronus.Listener.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mikecaav/RiderProjects/Socket.App/Socket.App.Synchronus.Listener/obj/Debug/net5.0/Socket.App.Synchronus.Listener.AssemblyInfoInputs.cache
+/Users/mikecaav/RiderProjects/Socket.App/Socket.App.Synchronus.Listener/obj/Debug/net5.0/Socket.App.Synchronus.Listener.AssemblyInfo.cs
+/Users/mikecaav/RiderProjects/Socket.App/Socket.App.Synchronus.Listener/obj/Debug/net5.0/Socket.App.Synchronus.Listener.csproj.CoreCompileInputs.cache
+/Users/mikecaav/RiderProjects/Socket.App/Socket.App.Synchronus.Listener/obj/Debug/net5.0/Socket.App.Synchronus.Listener.dll
+/Users/mikecaav/RiderProjects/Socket.App/Socket.App.Synchronus.Listener/obj/Debug/net5.0/ref/Socket.App.Synchronus.Listener.dll
+/Users/mikecaav/RiderProjects/Socket.App/Socket.App.Synchronus.Listener/obj/Debug/net5.0/Socket.App.Synchronus.Listener.pdb
+/Users/mikecaav/RiderProjects/Socket.App/Socket.App.Synchronus.Listener/obj/Debug/net5.0/Socket.App.Synchronus.Listener.genruntimeconfig.cache
