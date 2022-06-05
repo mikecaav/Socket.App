@@ -8,24 +8,31 @@
     "net5.0": []
   },
   "packageFolders": {
-    "/Users/mikecaav/.nuget/packages/": {}
+    "C:\\Users\\cabal\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/mikecaav/RiderProjects/Socket.App/Socket.App.Synchronus.Client/Socket.App.Synchronus.Client.csproj",
+      "projectUniqueName": "D:\\Users\\cabal\\source\\Socket.App\\Socket.App.Synchronus.Client\\Socket.App.Synchronus.Client.csproj",
       "projectName": "Socket.App.Synchronus.Client",
-      "projectPath": "/Users/mikecaav/RiderProjects/Socket.App/Socket.App.Synchronus.Client/Socket.App.Synchronus.Client.csproj",
-      "packagesPath": "/Users/mikecaav/.nuget/packages/",
-      "outputPath": "/Users/mikecaav/RiderProjects/Socket.App/Socket.App.Synchronus.Client/obj/",
+      "projectPath": "D:\\Users\\cabal\\source\\Socket.App\\Socket.App.Synchronus.Client\\Socket.App.Synchronus.Client.csproj",
+      "packagesPath": "C:\\Users\\cabal\\.nuget\\packages\\",
+      "outputPath": "D:\\Users\\cabal\\source\\Socket.App\\Socket.App.Synchronus.Client\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "/Users/mikecaav/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\cabal\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -58,7 +65,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.408/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
       }
     }
   }

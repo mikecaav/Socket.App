@@ -6,15 +6,16 @@ using System.Threading;
 
 namespace Socket.App
 {
-    public class Listener
+    public static class Listener
     {
         // Incoming data from the client.  
-        public static string data = null;  
+        private static string _data = null;  
       
         public static void StartListening() {
-            byte[] bytes = new Byte[1024];
+            byte[] bytes = new byte[1024];
 
-            IPAddress ipAddress = IPAddress.Any;
+            IPHostEntry ipHostInfo = Dns.GetHostEntry(Dns.GetHostName());  
+            IPAddress ipAddress = ipHostInfo.AddressList[0];
             Console.WriteLine($"Host started at {ipAddress} ip address");
             IPEndPoint localEndPoint = new IPEndPoint(ipAddress, 11000);  
       
@@ -33,19 +34,19 @@ namespace Socket.App
                     Console.WriteLine("Waiting for a connection...");  
                     // Program is suspended while waiting for an incoming connection.  
                     System.Net.Sockets.Socket handler = listener.Accept();  
-                    data = null;  
+                    _data = null;  
       
                     // An incoming connection needs to be processed.  
                     while (handler.Connected) {
-                        data = String.Empty;
+                        _data = String.Empty;
                         int bytesRec = handler.Receive(bytes);  
-                        data += Encoding.ASCII.GetString(bytes,0,bytesRec);  
+                        _data += Encoding.ASCII.GetString(bytes,0,bytesRec);  
 
                         // Show the data on the console.  
-                        Console.WriteLine( "Text received : {0}", data);
+                        Console.WriteLine( "Text received : {0}", _data);
 
                         // Echo the data back to the client.  
-                        byte[] msg = Encoding.ASCII.GetBytes(data);
+                        byte[] msg = Encoding.ASCII.GetBytes(_data);
 
                         handler.Send(msg);
 
